@@ -6,5 +6,5 @@ const keycloak = new Keycloak({
     realm: 'myrealm',          // <- change this
     clientId: 'myfrontend',        // <- change this
 });
-//fuck me
+//fuck me lalal
 export default keycloak;
