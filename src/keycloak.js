@@ -2,9 +2,9 @@
 import Keycloak from 'keycloak-js';
 
 const keycloak = new Keycloak({
-    url: 'https://aaad02.avans.nl:8443/',     // Keyclogtak base URL
+    url: 'https://158.178.144.151/',     // Keycloak base URL
     realm: 'myrealm',          // <- change this
-    clientId: 'myfrontend',        // <- change this
+    clientId: 'myclient',        // <- change this
 });
-//fuck me lalal
+//fuck me
 export default keycloak;
